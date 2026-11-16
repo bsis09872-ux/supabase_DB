@@ -1,0 +1,11 @@
+[project]
+name = "supabase-db"
+version = "0.1.0"
+description = "회원·상품·주문 3개 테이블 CRUD와 RLS를 Supabase로 구현한 쇼핑몰 DB 과제"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "python-dotenv>=1.2.3",
+    "supabase>=2.31.0",
+]
